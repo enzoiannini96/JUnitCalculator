@@ -15,7 +15,6 @@ public class CalculatorBasicTest {
 	public static void inizializzazione() {
 		System.out.println("before class");
 		calculator = new Calculator();
-		
 	}
 	
 	@Before
@@ -33,7 +32,6 @@ public class CalculatorBasicTest {
 			e.printStackTrace();
 		}
 		Assert.assertEquals(10, calculator.multiply(5, 2));
-		
 		
 	}
 	
